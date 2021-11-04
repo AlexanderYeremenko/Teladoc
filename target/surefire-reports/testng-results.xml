@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="945" started-at="2021-10-26T01:08:41 EDT" finished-at="2021-10-26T01:08:42 EDT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.cukesRunner@42e26948]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="945" started-at="2021-10-26T01:08:41 EDT" finished-at="2021-10-26T01:08:42 EDT">
+      <class name="runners.cukesRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.cukesRunner@42e26948]" name="setUpClass" is-config="true" duration-ms="785" started-at="2021-10-26T01:08:41 EDT" finished-at="2021-10-26T01:08:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.cukesRunner@42e26948]" name="tearDownClass" is-config="true" duration-ms="124" started-at="2021-10-26T01:08:42 EDT" finished-at="2021-10-26T01:08:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.cukesRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
